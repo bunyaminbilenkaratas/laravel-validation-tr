@@ -1,2 +1,16 @@
-# laravel-validation-tr
-Bu repository Laravel için Türkçe validation mesajlarını içermektedir. Laravel projelerinde kullanılan varsayılan validation mesajlarının Türkçe'ye çevrilmiş halini sağlar. Bu, projelerde daha kullanıcı dostu hata mesajları ve doğrulama süreçleri oluşturmanıza yardımcı olur.
+# Laravel Türkçe Doğrulama Mesajları
+
+Bu proje, Laravel için özelleştirilmiş Türkçe doğrulama mesajlarını içerir.
+
+## Özellikler
+
+- Laravel frameworküne uygun
+- Türkçe doğrulama mesajlarını içerir
+- Kolayca entegre edilebilir
+
+## Kurulum
+
+1. `resources/lang/tr/validation.php` dosyasını projenizde uygun konuma yerleştirin.
+2. `config/app.php` dosyasındaki `locale` değerini `tr` olarak ayarlayın:
+   ```php
+   'locale' => 'tr',
